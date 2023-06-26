@@ -1,0 +1,97 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 12;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 350px;
+  height: 279px;
+
+  background: #020e09;
+  border: 1px solid #00a724;
+  border-radius: 30px;
+}
+
+.modal_res {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.modal_reward_cont {
+  gap: 20px;
+
+  width: 183px;
+  height: 56px;
+
+  font-weight: 600;
+  font-size: 20px;
+
+  background: #16221e;
+  border: 1px solid #4dffbf;
+  border-radius: 28px;
+}
+
+.modal_ok {
+  width: 219px;
+  height: 60px;
+
+  background: #00a724;
+  border-radius: 13px;
+}
+
+.balance_cont {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.back {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.pers {
+  display: block;
+  margin: 10px auto auto;
+}
+
+.game {
+  position: relative;
+  width: 295px;
+  height: 340px;
+
+  margin: auto;
+}
+
+.ball {
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 15px);
+
+  width: 30px;
+  transition: transform 0.5s ease;
+}
+
+.cfs {
+  display: block;
+  margin: 10px auto auto;
+  width: 282px;
+}
+
+.play {
+  margin: 20px auto auto;
+}
+
+@media screen and (max-height: 740px) {
+  .pers {
+    width: 140px;
+  }
+}
